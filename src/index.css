@@ -8,47 +8,47 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Warm Beige Theme */
-    --background: 0 0% 100%;
-    --foreground: 30 8% 20%;
+    /* Dark Eye-Catching Theme */
+    --background: 25 20% 8%;
+    --foreground: 38 49% 92%;
 
-    --card: 38 49% 95%;
-    --card-foreground: 30 8% 20%;
+    --card: 25 25% 12%;
+    --card-foreground: 38 49% 92%;
 
-    --popover: 38 49% 95%;
-    --popover-foreground: 30 8% 20%;
+    --popover: 25 25% 12%;
+    --popover-foreground: 38 49% 92%;
 
-    /* Main Beige Primary */
-    --primary: 38 49% 85%;
-    --primary-foreground: 30 8% 20%;
-    --primary-glow: 38 60% 88%;
+    /* Vibrant Beige Primary */
+    --primary: 38 70% 75%;
+    --primary-foreground: 25 20% 8%;
+    --primary-glow: 38 80% 82%;
 
-    /* Warm Brown Secondary */
-    --secondary: 30 25% 45%;
+    /* Deep Orange Secondary */
+    --secondary: 20 85% 55%;
     --secondary-foreground: 0 0% 100%;
 
-    /* Gold Accent */
-    --accent: 45 80% 60%;
-    --accent-foreground: 30 8% 20%;
+    /* Bright Gold Accent */
+    --accent: 45 100% 65%;
+    --accent-foreground: 25 20% 8%;
 
-    --muted: 38 30% 92%;
-    --muted-foreground: 30 15% 50%;
+    --muted: 25 15% 18%;
+    --muted-foreground: 38 30% 65%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 90% 65%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 38 25% 88%;
-    --input: 38 25% 88%;
-    --ring: 38 49% 85%;
+    --border: 25 20% 22%;
+    --input: 25 25% 15%;
+    --ring: 38 70% 75%;
 
-    /* Warm Beige Gradients */
-    --gradient-saffron: linear-gradient(135deg, hsl(38 49% 85%), hsl(38 60% 88%));
-    --gradient-sacred: linear-gradient(135deg, hsl(38 49% 85%), hsl(30 25% 45%));
-    --gradient-divine: linear-gradient(180deg, hsl(0 0% 100%), hsl(38 49% 95%));
+    /* Vibrant Gradients */
+    --gradient-saffron: linear-gradient(135deg, hsl(38 70% 75%), hsl(45 100% 65%));
+    --gradient-sacred: linear-gradient(135deg, hsl(38 70% 75%), hsl(20 85% 55%));
+    --gradient-divine: linear-gradient(180deg, hsl(25 20% 12%), hsl(25 25% 16%));
     
-    /* Warm Shadows */
-    --shadow-divine: 0 10px 30px -10px hsl(38 49% 85% / 0.4);
-    --shadow-sacred: 0 5px 20px -5px hsl(30 25% 45% / 0.3);
+    /* Glowing Shadows */
+    --shadow-divine: 0 15px 40px -10px hsl(38 70% 75% / 0.6);
+    --shadow-sacred: 0 8px 25px -8px hsl(20 85% 55% / 0.5);
 
     --radius: 0.5rem;
 
@@ -70,41 +70,41 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 30 8% 8%;
-    --foreground: 38 49% 95%;
+    --background: 20 25% 5%;
+    --foreground: 38 70% 95%;
 
-    --card: 30 15% 12%;
-    --card-foreground: 38 49% 95%;
+    --card: 20 30% 8%;
+    --card-foreground: 38 70% 95%;
 
-    --popover: 30 15% 12%;
-    --popover-foreground: 38 49% 95%;
+    --popover: 20 30% 8%;
+    --popover-foreground: 38 70% 95%;
 
-    --primary: 38 49% 85%;
-    --primary-foreground: 30 8% 20%;
+    --primary: 38 80% 80%;
+    --primary-foreground: 20 25% 5%;
 
-    --secondary: 30 25% 25%;
-    --secondary-foreground: 38 49% 95%;
+    --secondary: 15 90% 60%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 30 15% 20%;
-    --muted-foreground: 38 30% 70%;
+    --muted: 20 20% 15%;
+    --muted-foreground: 38 40% 75%;
 
-    --accent: 45 80% 60%;
-    --accent-foreground: 30 8% 8%;
+    --accent: 45 100% 70%;
+    --accent-foreground: 20 25% 5%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 38 49% 95%;
+    --destructive: 0 95% 70%;
+    --destructive-foreground: 20 25% 5%;
 
-    --border: 30 15% 25%;
-    --input: 30 15% 25%;
-    --ring: 38 49% 85%;
-    --sidebar-background: 30 8% 10%;
-    --sidebar-foreground: 38 49% 95%;
-    --sidebar-primary: 38 49% 85%;
-    --sidebar-primary-foreground: 30 8% 20%;
-    --sidebar-accent: 30 15% 15%;
-    --sidebar-accent-foreground: 38 49% 95%;
-    --sidebar-border: 30 15% 20%;
-    --sidebar-ring: 38 49% 85%;
+    --border: 20 25% 18%;
+    --input: 20 30% 12%;
+    --ring: 38 80% 80%;
+    --sidebar-background: 20 25% 6%;
+    --sidebar-foreground: 38 70% 95%;
+    --sidebar-primary: 38 80% 80%;
+    --sidebar-primary-foreground: 20 25% 5%;
+    --sidebar-accent: 20 25% 12%;
+    --sidebar-accent-foreground: 38 70% 95%;
+    --sidebar-border: 20 25% 15%;
+    --sidebar-ring: 38 80% 80%;
   }
 }
 
